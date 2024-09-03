@@ -10,7 +10,7 @@ import Favourites from "./components/Favourites";
 function App() {
   return (
     <BrowserRouter>
-      <header>
+      <header className="nav">
         <MyNavbar />
       </header>
       <Routes>
